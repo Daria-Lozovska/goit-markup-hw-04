@@ -262,26 +262,19 @@ img {
         margin: 0 auto;
 }
 
-.ul-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        padding: 0;
-}
-
-.li-icon {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-}
-
-.icon {
+.icon-sect-2 {
         border: 1px solid rgba(142, 143, 153, 1);
         border-radius: 4px;
         width: 264px;
         height: 112px;
         background-color: #f4f4fd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+}
+
+.icon {
         visibility: visible;
         opacity: 1;
 }
@@ -374,10 +367,17 @@ img {
         height: 40px;
         border-radius: 50%;
         background-color: #4d5ae5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .li-team-icon:hover {
         background-color: #404bbf;
+}
+
+.link-icon-team {
+        fill: #ffffff;
 }
 /* SECTION 4 OUR PORTFOLIO */
 .section-four {
@@ -566,8 +566,16 @@ img {
         height: 40px;
         border-radius: 50%;
         background-color: #4d5ae5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .li-footer:hover {
         background-color: #31D0AA;
+}
+
+
+.icon-footer {
+        fill: #ffffff;
 }
