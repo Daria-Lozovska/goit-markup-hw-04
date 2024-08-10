@@ -351,10 +351,16 @@ img {
         padding-bottom: 8px;
 }
 
-.ul-team-icon {
-        display: flex;
+.social-media-team {
         width: 232px;
         height: 40px;
+        margin: 0 auto;
+}
+
+.ul-team-icon {
+        display: flex;
+        /* width: 232px;
+        height: 40px; */
         gap: 24px;
         justify-content: center;
         align-items: center;
