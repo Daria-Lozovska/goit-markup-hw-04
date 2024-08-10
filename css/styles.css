@@ -265,7 +265,7 @@ img {
         margin: 0 auto;
 }
 
-.icon-sect-2 {
+.icon-sect-two {
         border: 1px solid rgba(142, 143, 153, 1);
         border-radius: 4px;
         width: 264px;
@@ -364,19 +364,25 @@ img {
 .li-team-icon {
         width: 40px;
         height: 40px;
+}
+
+.team-icon {
+        fill: #f4f4f4;
+}
+
+.link-icon-team:hover,
+.link-icon-team:focus {
+        background-color: #404bbf;
+}
+
+.link-icon-team {
+        width: 100%;
+        height: 100%;
         border-radius: 50%;
         background-color: #4d5ae5;
         display: flex;
         align-items: center;
         justify-content: center;
-}
-
-.li-team-icon:hover {
-        background-color: #404bbf;
-}
-
-.link-icon-team {
-        fill: #ffffff;
 }
 /* SECTION 4 OUR PORTFOLIO */
 .section-four {
@@ -429,7 +435,9 @@ img {
 }
 
 .div-box:hover {
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .box-name {
@@ -488,6 +496,11 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+
+        /* width: 100%;
+        height: 100%;
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
         margin: 0 auto;
         padding: 0;
@@ -565,8 +578,8 @@ img {
 }
 
 .link-footer-icon {
-        width: 100%;
-        height: 100%;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         background-color: #4d5ae5;
         display: flex;
