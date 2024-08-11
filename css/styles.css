@@ -160,10 +160,10 @@ img {
         text-align: center;
         padding-top: 188px;
         padding-bottom: 188px;
+        margin: 0 auto;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
          rgba(46, 47, 66, 0.7)), 
          url(../images/people-office.jpg);
-        max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -475,22 +475,6 @@ img {
 .transition {
         position: relative;
         overflow: hidden;
-}
-
-.overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #4d5ae5;
-        
-        transform: translatey(100%);
-        transition: transform 250ms ease-in-out;
-}
-
-.transition:hover .overlay {
-        transform: translateY(0);
 }
 
 .text-overlay {
